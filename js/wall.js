@@ -2,7 +2,7 @@ var now=new Date();
 if(now.getHours()<8){
 	alert("每晚12点到8点，你该睡觉了！！！！！");
 }
-for(var i=1;i<1;i++){
+for(var i=1;i<51;i++){
 		var $li=$("<li/>");
 		var $img=$("<img/>");
 		$img.attr("src","images/"+i+".jpg").attr("data-src","images/"+i+".jpg");
